@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		435B4F8D19F29DE4004A0A4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4F8C19F29DE4004A0A4A /* AppDelegate.swift */; };
+		435B4F8F19F29DE4004A0A4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4F8E19F29DE4004A0A4A /* ViewController.swift */; };
+		435B4F9219F29DE4004A0A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 435B4F9019F29DE4004A0A4A /* Main.storyboard */; };
+		435B4F9419F29DE4004A0A4A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 435B4F9319F29DE4004A0A4A /* Images.xcassets */; };
+		435B4F9719F29DE4004A0A4A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 435B4F9519F29DE4004A0A4A /* LaunchScreen.xib */; };
+		435B4FA319F29DE4004A0A4A /* iNetHackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 435B4FA219F29DE4004A0A4A /* iNetHackTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		435B4F9D19F29DE4004A0A4A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 435B4F7F19F29DE4004A0A4A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 435B4F8619F29DE4004A0A4A;
+			remoteInfo = iNetHack;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		435B4F8719F29DE4004A0A4A /* iNetHack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iNetHack.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		435B4F8B19F29DE4004A0A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435B4F8C19F29DE4004A0A4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		435B4F8E19F29DE4004A0A4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		435B4F9119F29DE4004A0A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		435B4F9319F29DE4004A0A4A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		435B4F9619F29DE4004A0A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		435B4F9C19F29DE4004A0A4A /* iNetHackTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iNetHackTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		435B4FA119F29DE4004A0A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		435B4FA219F29DE4004A0A4A /* iNetHackTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iNetHackTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		435B4F8419F29DE4004A0A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435B4F9919F29DE4004A0A4A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		435B4F7E19F29DE4004A0A4A = {
+			isa = PBXGroup;
+			children = (
+				435B4F8919F29DE4004A0A4A /* iNetHack */,
+				435B4F9F19F29DE4004A0A4A /* iNetHackTests */,
+				435B4F8819F29DE4004A0A4A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		435B4F8819F29DE4004A0A4A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				435B4F8719F29DE4004A0A4A /* iNetHack.app */,
+				435B4F9C19F29DE4004A0A4A /* iNetHackTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		435B4F8919F29DE4004A0A4A /* iNetHack */ = {
+			isa = PBXGroup;
+			children = (
+				435B4F8C19F29DE4004A0A4A /* AppDelegate.swift */,
+				435B4F8E19F29DE4004A0A4A /* ViewController.swift */,
+				435B4F9019F29DE4004A0A4A /* Main.storyboard */,
+				435B4F9319F29DE4004A0A4A /* Images.xcassets */,
+				435B4F9519F29DE4004A0A4A /* LaunchScreen.xib */,
+				435B4F8A19F29DE4004A0A4A /* Supporting Files */,
+			);
+			path = iNetHack;
+			sourceTree = "<group>";
+		};
+		435B4F8A19F29DE4004A0A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435B4F8B19F29DE4004A0A4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		435B4F9F19F29DE4004A0A4A /* iNetHackTests */ = {
+			isa = PBXGroup;
+			children = (
+				435B4FA219F29DE4004A0A4A /* iNetHackTests.swift */,
+				435B4FA019F29DE4004A0A4A /* Supporting Files */,
+			);
+			path = iNetHackTests;
+			sourceTree = "<group>";
+		};
+		435B4FA019F29DE4004A0A4A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				435B4FA119F29DE4004A0A4A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		435B4F8619F29DE4004A0A4A /* iNetHack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435B4FA619F29DE4004A0A4A /* Build configuration list for PBXNativeTarget "iNetHack" */;
+			buildPhases = (
+				435B4F8319F29DE4004A0A4A /* Sources */,
+				435B4F8419F29DE4004A0A4A /* Frameworks */,
+				435B4F8519F29DE4004A0A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iNetHack;
+			productName = iNetHack;
+			productReference = 435B4F8719F29DE4004A0A4A /* iNetHack.app */;
+			productType = "com.apple.product-type.application";
+		};
+		435B4F9B19F29DE4004A0A4A /* iNetHackTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 435B4FA919F29DE4004A0A4A /* Build configuration list for PBXNativeTarget "iNetHackTests" */;
+			buildPhases = (
+				435B4F9819F29DE4004A0A4A /* Sources */,
+				435B4F9919F29DE4004A0A4A /* Frameworks */,
+				435B4F9A19F29DE4004A0A4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				435B4F9E19F29DE4004A0A4A /* PBXTargetDependency */,
+			);
+			name = iNetHackTests;
+			productName = iNetHackTests;
+			productReference = 435B4F9C19F29DE4004A0A4A /* iNetHackTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		435B4F7F19F29DE4004A0A4A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Dirk Zimmermann";
+				TargetAttributes = {
+					435B4F8619F29DE4004A0A4A = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					435B4F9B19F29DE4004A0A4A = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = 435B4F8619F29DE4004A0A4A;
+					};
+				};
+			};
+			buildConfigurationList = 435B4F8219F29DE4004A0A4A /* Build configuration list for PBXProject "iNetHack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 435B4F7E19F29DE4004A0A4A;
+			productRefGroup = 435B4F8819F29DE4004A0A4A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				435B4F8619F29DE4004A0A4A /* iNetHack */,
+				435B4F9B19F29DE4004A0A4A /* iNetHackTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		435B4F8519F29DE4004A0A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435B4F9219F29DE4004A0A4A /* Main.storyboard in Resources */,
+				435B4F9719F29DE4004A0A4A /* LaunchScreen.xib in Resources */,
+				435B4F9419F29DE4004A0A4A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435B4F9A19F29DE4004A0A4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		435B4F8319F29DE4004A0A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435B4F8F19F29DE4004A0A4A /* ViewController.swift in Sources */,
+				435B4F8D19F29DE4004A0A4A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		435B4F9819F29DE4004A0A4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				435B4FA319F29DE4004A0A4A /* iNetHackTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		435B4F9E19F29DE4004A0A4A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 435B4F8619F29DE4004A0A4A /* iNetHack */;
+			targetProxy = 435B4F9D19F29DE4004A0A4A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		435B4F9019F29DE4004A0A4A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435B4F9119F29DE4004A0A4A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		435B4F9519F29DE4004A0A4A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				435B4F9619F29DE4004A0A4A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		435B4FA419F29DE4004A0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		435B4FA519F29DE4004A0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		435B4FA719F29DE4004A0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iNetHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		435B4FA819F29DE4004A0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iNetHack/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		435B4FAA19F29DE4004A0A4A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iNetHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNetHack.app/iNetHack";
+			};
+			name = Debug;
+		};
+		435B4FAB19F29DE4004A0A4A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iNetHackTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iNetHack.app/iNetHack";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		435B4F8219F29DE4004A0A4A /* Build configuration list for PBXProject "iNetHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435B4FA419F29DE4004A0A4A /* Debug */,
+				435B4FA519F29DE4004A0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		435B4FA619F29DE4004A0A4A /* Build configuration list for PBXNativeTarget "iNetHack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435B4FA719F29DE4004A0A4A /* Debug */,
+				435B4FA819F29DE4004A0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		435B4FA919F29DE4004A0A4A /* Build configuration list for PBXNativeTarget "iNetHackTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435B4FAA19F29DE4004A0A4A /* Debug */,
+				435B4FAB19F29DE4004A0A4A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 435B4F7F19F29DE4004A0A4A /* Project object */;
+}
