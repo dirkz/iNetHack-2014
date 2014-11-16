@@ -8,6 +8,11 @@
 
 #include "wintype.h"
 
+#import "iNetHack-Swift.h"
+
+void setNhWindows(id<NHWindows> windows);
+id<NHWindows> getNhWindows();
+
 void ios_init_nhwindows(int* argc, char** argv);
 void ios_player_selection();
 void ios_askname();

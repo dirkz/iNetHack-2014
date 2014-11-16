@@ -122,6 +122,7 @@
 		435B517719F29ECF004A0A4A /* zap.c in Sources */ = {isa = PBXBuildFile; fileRef = 435B510719F29ECF004A0A4A /* zap.c */; };
 		435B51DD19F29F79004A0A4A /* questpgr.c in Sources */ = {isa = PBXBuildFile; fileRef = 435B51DC19F29F79004A0A4A /* questpgr.c */; };
 		435B51E019F2A9EF004A0A4A /* winios.m in Sources */ = {isa = PBXBuildFile; fileRef = 435B51DE19F2A9EF004A0A4A /* winios.m */; };
+		43A6AF9619F2C16100D0443D /* Windows.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A6AF9519F2C16100D0443D /* Windows.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -354,6 +355,7 @@
 		435B51DC19F29F79004A0A4A /* questpgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = questpgr.c; sourceTree = "<group>"; };
 		435B51DE19F2A9EF004A0A4A /* winios.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = winios.m; sourceTree = "<group>"; };
 		435B51DF19F2A9EF004A0A4A /* winios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = winios.h; sourceTree = "<group>"; };
+		43A6AF9519F2C16100D0443D /* Windows.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Windows.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -405,6 +407,7 @@
 				435B4F8A19F29DE4004A0A4A /* Supporting Files */,
 				435B51DE19F2A9EF004A0A4A /* winios.m */,
 				435B51DF19F2A9EF004A0A4A /* winios.h */,
+				43A6AF9519F2C16100D0443D /* Windows.swift */,
 			);
 			path = iNetHack;
 			sourceTree = "<group>";
@@ -840,6 +843,7 @@
 				435B512C19F29ECF004A0A4A /* invent.c in Sources */,
 				435B512319F29ECF004A0A4A /* engrave.c in Sources */,
 				435B514419F29ECF004A0A4A /* music.c in Sources */,
+				43A6AF9619F2C16100D0443D /* Windows.swift in Sources */,
 				435B513B19F29ECF004A0A4A /* mkroom.c in Sources */,
 				435B513519F29ECF004A0A4A /* mhitu.c in Sources */,
 				435B513619F29ECF004A0A4A /* minion.c in Sources */,
@@ -1061,6 +1065,7 @@
 				435B4FA819F29DE4004A0A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		435B4FA919F29DE4004A0A4A /* Build configuration list for PBXNativeTarget "iNetHackTests" */ = {
 			isa = XCConfigurationList;
@@ -1069,6 +1074,7 @@
 				435B4FAB19F29DE4004A0A4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

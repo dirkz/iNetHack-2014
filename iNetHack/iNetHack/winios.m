@@ -16,6 +16,18 @@
 
 #import "winios.h"
 
+#pragma mark -- Setting and getting windows implementation
+
+static id<NHWindows> nhWindows;
+
+void setNhWindows(id<NHWindows> windows) {
+    nhWindows = windows;
+}
+
+id<NHWindows> getNhWindows() {
+    return nhWindows;
+}
+
 #pragma mark -- window procs
 
 struct window_procs ios_procs = {
@@ -107,6 +119,8 @@ void regularize(char *s) {
 #define BASE_WINDOW (0)
 
 void ios_init_nhwindows(int* argc, char** argv) {
+    [nhWindows initNHWindows:argc argv:<#(NSArray *)#>]
+    nhWindows.initNHWindows(argc, argv);
     //DLog(@"init_nhwindows");
     iflags.runmode = RUN_STEP;
     iflags.window_inited = TRUE;
@@ -116,6 +130,7 @@ void ios_init_nhwindows(int* argc, char** argv) {
     wizard = TRUE; /* debugging */
 #endif
 }
+
 void ios_askname() {
     //DLog(@"askname");
     ios_getlin("Enter your name", plname);
@@ -283,6 +298,7 @@ void ios_outrip(winid wid, int how) {
 }
 
 #pragma mark -- window API player_selection()
+
 // from tty port
 /* clean up and quit */
 static void bail(const char *mesg) {
@@ -354,7 +370,7 @@ static int ios_role_select(char *pbuf, char *plbuf) {
 // from tty port
 static int ios_race_select(char * pbuf, char * plbuf) {
     int i, k, n;
-    char thisch, lastch;
+    char thisch, lastch = 0;
     winid win;
     anything any;
     menu_item *selected = 0;
